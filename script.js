@@ -43,5 +43,5 @@ function handleSubmit(event) {
   
   result.className = `mt-6 p-4 rounded-lg text-center font-semibold border-2 ${classes}`;
 
-  img.innerHTML= `<img src="../bmi/img/${imgSrc}.png" alt="">`;
+  img.innerHTML= `<img src="/img/${imgSrc}.png" alt="">`;
 }
