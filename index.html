@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BMI Calculatorr</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="form" onsubmit="handleSubmit(event)"> 
+            <form action="">
+            <h2 class="form-title">BMI calculator</h2>
+            <label for="height">Enter your height:</label><br>
+            <input type="number" id="height" min="0"><br>
+            <label for="weight">Enter your weight:</label><br>
+            <input type="number" id="weight" min="0"><br>
+            <input type="submit" id="calculate" value="Calculate" >
+        </form>
+        </div>
+        <div class="result-container">
+            <div class="disk"> 
+                <img src="../bmi/img/normal.png" alt="">
+
+            </div>
+            <h2 id="result">Your BMI is:  </h2>
+        </div>
+    </div>    
+</body>
+</html>

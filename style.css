@@ -1,0 +1,72 @@
+body{
+    height: 100%;
+    width:100%;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background: radial-gradient(ellipse 85% 65% at 8% 8%, rgba(175, 109, 255, 0.42), transparent 60%),
+    radial-gradient(ellipse 75% 60% at 75% 35%, rgba(255, 235, 170, 0.55), transparent 62%),
+    radial-gradient(ellipse 70% 60% at 15% 80%, rgba(255, 100, 180, 0.40), transparent 62%),
+    radial-gradient(ellipse 70% 60% at 92% 92%, rgba(120, 190, 255, 0.45), transparent 62%),
+    linear-gradient(180deg, #f7eaff 0%, #fde2ea 100%);
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    min-height: 100vh;
+    min-width: 100%;
+}
+.form{
+    /* background-color: blueviolet; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-width: 50%;
+    color: #020202;
+    font-size: 200%;
+}
+.disk{
+    /* background-color: whitesmoke; */
+    width: 70%;
+    height: 70% ;
+    /* border-radius: 50%; */
+    align-self: center;
+    display: flex;
+
+}
+.form-title{
+    text-align: center;
+    margin-bottom: 20%;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.result-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #000000; */
+    width: 64%;
+}
+input{
+    border-radius: 16px;
+    box-shadow:10px 10px;
+    
+}
+img{
+    border-radius: 50%;
+}
+#calculate{
+    box-shadow: none;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 24px;
+    font-size:24px;
+    padding: 8px;
+}
